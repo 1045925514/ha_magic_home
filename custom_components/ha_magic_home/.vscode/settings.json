@@ -1,0 +1,10 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "yapf",
+    "editor.formatOnSave": true,
+    "python.linting.pylintArgs": [
+        "--max-line-length=80", // Google 规范要求每行最多 80 字符
+        "--disable=C0114,C0115,C0116" // 可选：禁用不符合 Google 规范的规则
+    ]
+}

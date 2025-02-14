@@ -1,0 +1,15 @@
+{
+    "domain": "ha_magic_home",
+    "name": "Ha Magic Home",
+    "version": "1.0.0",
+    "config_flow": true,
+    "documentation": "https://example.com",
+    "requirements": [
+        "pydantic"
+    ],
+    "dependencies": [],
+    "codeowners": [
+        "@roc"
+    ],
+    "iot_class": "cloud_polling"
+}

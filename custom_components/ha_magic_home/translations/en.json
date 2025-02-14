@@ -1,0 +1,50 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Security Notice",
+                "description": "1. Your user and device information will be stored in your Home Assistant system. **BoLink cannot guarantee the security of Home Assistant's storage mechanism**. You are responsible for preventing your information from being stolen.\r\n2. This integration is maintained by the open-source community and may have stability issues or other problems. If you encounter related issues while using this integration, you should **seek help from the open-source community, not contact BoLink customer service**.\r\n3. You need to have some technical skills to maintain your local environment. This integration is not user-friendly for beginners.\r\n4. Please carefully read the README before using this integration.\r\n5. To ensure stable use of the integration and avoid misuse of the interface, **this integration is only allowed to be used in Home Assistant. Please refer to the LICENSE for details**.",
+                "data": {
+                    "confirm": "I have understood the above risks and voluntarily assume the related risks arising from using the integration."
+                }
+            },
+            "family_info": {
+                "title": "Family Configuration",
+                "description": "### Login Region\r\nSelect the region where your family is located. You can view it in the `Magic Home App`.\r\n### Language\r\nSelect the cluster where your family is located. If you select incorrectly, you will not be able to access the devices in your family.\r\nPlease carefully read the README.",
+                "data": {
+                    "cloud_server": "Login Region",
+                    "integration_language": "Language"
+                }
+            },
+            "auth_code": {
+                "title": "Enter Authorization Code",
+                "description": "Please enter the authorization code you obtained from the Magic Home App.",
+                "data": {
+                    "auth_code": "Authorization Code"
+                }
+            },
+            "validate_code": {
+                "title": "Validate Authorization Code",
+                "description": "Validating your authorization code, please wait."
+            }
+        },
+        "error": {
+            "not_agreed": "You must check the agreement box to proceed.",
+            "invalid_auth_code": "The authorization code is invalid, please go back and try again.",
+            "empty_auth_code": "The authorization code is empty",
+            "invalid_http_status": "HTTP Error: Status code {status_code}",
+            "invalid_response_format": "Invalid response format",
+            "server_validation_failed": "Server validation failed: Status code {status_code}",
+            "network_error": "Network error: {error_message}"
+        }
+    },
+    "error": {
+        "not_agreed": "You must check the agreement box to proceed.",
+        "invalid_auth_code": "The authorization code is invalid, please go back and try again.",
+        "empty_auth_code": "The authorization code is empty",
+        "invalid_http_status": "HTTP Error: Status code {status_code}",
+        "invalid_response_format": "Invalid response format",
+        "server_validation_failed": "Server validation failed: Status code {status_code}",
+        "network_error": "Network error: {error_message}"
+    }
+}

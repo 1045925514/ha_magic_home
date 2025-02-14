@@ -1,0 +1,22 @@
+{
+    "config": {
+        "error": {
+            "not_agreed": "You must check the agreement box to proceed.",
+            "invalid_auth_code": "The authorization code is invalid, please go back and try again.",
+            "empty_auth_code": "The authorization code is empty",
+            "invalid_http_status": "HTTP Error: Status code {status_code}",
+            "invalid_response_format": "Invalid response format",
+            "server_validation_failed": "Server validation failed: Status code {status_code}",
+            "network_error": "Network error: {error_message}"
+        }
+    },
+    "error": {
+        "not_agreed": "You must check the agreement box to proceed.",
+        "invalid_auth_code": "The authorization code is invalid, please go back and try again.",
+        "empty_auth_code": "The authorization code is empty",
+        "invalid_http_status": "HTTP Error: Status code {status_code}",
+        "invalid_response_format": "Invalid response format",
+        "server_validation_failed": "Server validation failed: Status code {status_code}",
+        "network_error": "Network error: {error_message}"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "安全提示",
+                "description": "1. 您的用户信息和设备信息将会存储在您的 Home Assistant 系统中，**博联 无法保证 Home Assistant 存储机制的安全性**。您需要负责防止您的信息被窃取。\r\n2. 此集成由开源社区维护，可能会出现稳定性问题或其它问题，使用此集成遇到相关问题时，您应当**向开源社区寻求帮助，而不是联系博联智能客服**。\r\n3. 您需要有一定的技术能力来维护您的本地运行环境，此集成对新手用户来说并不友好。\r\n4. 在使用此集成前，请仔细阅读README。\r\n5. 为了用户能够稳定地使用集成，避免接口被滥用，**此集成仅允许在 Home Assistant 中使用，详情请参考LICENSE**。",
+                "data": {
+                    "confirm": "我已悉知以上风险并自愿承担因使用集成所带来的相关风险。"
+                }
+            },
+            "family_info": {
+                "title": "家庭配置",
+                "description": "### 登录地区\r\n选择您的家庭所在的地区。您可以在 `魔法家app` 中查看。\r\n### 语言\r\n选择您家庭所在集群，如果选择错误，将无法获取您家庭下的设备\r\n。请仔细阅读README。",
+                "data": {
+                    "cloud_server": "登录地区",
+                    "integration_language": "语言"
+                }
+            },
+            "auth_code": {
+                "title": "输入授权码",
+                "description": "请输入您从魔法家app获取的授权码。",
+                "data": {
+                    "auth_code": "授权码"
+                }
+            },
+            "validate_code": {
+                "title": "校验授权码",
+                "description": "正在校验您的授权码，请稍候。"
+            }
+        },
+        "error": {
+            "not_agreed": "您必须勾选同意框才能继续。",
+            "invalid_auth_code": "授权码无效，请返回重试。",
+            "empty_auth_code": "授权码为空",
+            "invalid_http_status": "HTTP 错误: 状态码 {status_code}",
+            "invalid_response_format": "无效的响应格式",
+            "server_validation_failed": "服务器校验失败: 状态码 {status_code}",
+            "network_error": "网络错误: {error_message}"
+        }
+    },
+    "error": {
+        "not_agreed": "您必须勾选同意框才能继续。",
+        "invalid_auth_code": "授权码无效，请返回重试。",
+        "empty_auth_code": "授权码为空",
+        "invalid_http_status": "HTTP 错误: 状态码 {status_code}",
+        "invalid_response_format": "无效的响应格式",
+        "server_validation_failed": "服务器校验失败: 状态码 {status_code}",
+        "network_error": "网络错误: {error_message}"
+    }
+}
